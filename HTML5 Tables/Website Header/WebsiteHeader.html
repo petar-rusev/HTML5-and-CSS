@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html>
 <style>
-th,td {
+th,td{
     background-color:#234465;
     color: white;
+	height: 98px;
+    vertical-align: bottom;
+	padding-bottom:10px;
+  
 }
-p
-{
-padding-top:2cm;
-} 
-<td style="height:98px">
+select{
+background-color:white;
+color:#234465;
+vertical-align:bottom;
+padding-bottom:15px;
+}
 </style>
 <head lang="bg">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta http-equiv="Content-Language" content="bg">
 <title>
 Website Header
-</title
+</title>
 </head>
 <body>
-<table bg color="cyan">
+<table cellpadding="10" cellspacing="0">
 <thead>
 </thead>
 <tfoot>
 </tfoot>
 <tbody>
 <tr>
-<td>
+</tr>
+<tr>
+<td rowspan="2">
 <a href="https://softuni.bg">
 <img src="logo.jpg">
 </a>
@@ -36,6 +43,7 @@ Website Header
 </td>
 <td>
 <select>
+  <option>За университета</option>
   <option>За нас</option>
   <option>Професии</option>
   <option>Планове</option>
@@ -62,9 +70,11 @@ Website Header
 <td>
 <p>Контакти</p>
 </td>
+<td>
+<input id="mysearch" type="search" /> 
+</td>
 </tr>
 </tbody>
 </table>
 </body>
-</head>
 </html>
