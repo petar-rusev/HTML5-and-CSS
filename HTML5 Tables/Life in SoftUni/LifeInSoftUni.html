@@ -5,41 +5,69 @@
 table, th, td {
     border: 1px solid black;
 }
+table{
+width=200px;
+}
+td{
+height:60px;
+vertical-align:top;
+}
+</style>
+<style>
+#Google{text-align:left;vertical-align:top;}
+#GitHub{text-align:right;vertical-align:top;}
+#FB{text-align:center;vertical-align:top;}
+</style>
+<style>
+#GMail{text-align:left;vertical-align:middle;}
+#YouTube{text-align:center;vertical-align:bottom;}
+#year{text-align:left;vertical-align:middle;}
+#Food{text-align:right;vertical-align:bottom;}
+#Game{text-align:left;vertical-align:bottom;}
+#Social_Life{text-align:center;vertical-align:middle;}
+#Sleep{text-align:center;vertical-align:middle;}
+#Beer{text-align:right;vertical-align:middle;}
+#WC{text-align:left;vertical-align:middle;}
 </style>
 <title>
 Life in Softuni
 </title>
 </head>
 <body>
-<table width="100%">
+<table>
+ <col style="width:25%" height="30px">
+	<col style="width:25%" height="30px">
+        <col style="width:25%" height="30px">
+			<col style="width:25%" height="30px">
+			
 <thead>
-<tr><th colspan="8"><h1>SoftUni LIFE</h1></th></tr>
+<tr><th colspan="4"><h1>SoftUni LIFE</h1></th></tr>
 </thead>
 <tbody>
-	<tr>
-		<td style="width:50%">Google</td>
-		<td colspan="4">GitHub</td>
-	</tr>
-	<tr>
-		<td>FB</td>
-		<td>GMail</td>
-		<td>YouTube</td>
-		<td>2048</td>
-	</tr>
-	<tr>
-		<td>Food</td>
-		<td colspan="2">Game</td>
-		<td>
-		<table>
-		<tr><td>Social Life</td></tr>
-		<tr><td>Sleep</td></tr>
-		</table>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="3">Beer ></td>
-		<td>WC</td>
-	</tr>
+<tr>
+<td id="Google" colspan="2">Google</td>
+<td id="GitHub" colspan="2">GitHub</td>
+</tr>
+<tr>
+<td id="FB">FB</td>
+<td id="GMail">GMail</td>
+<td id="YouTube">YouTube</td>
+<td id="year">2048</td>
+</tr>
+<tr>
+<td id="Food">Food</td>
+<td id="Game" colspan="2">Game</td>
+<td>
+<table>
+<tr><td id="Social_Life">Social Life</td></tr>
+<tr><td id="Sleep">Sleep</td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td id="Beer" colspan="3">Beer ></td>
+<td id="WC">WC</td>
+</tr>
 </tbody>
 </table>
 </body>
